@@ -12,7 +12,7 @@ export default (store) => ({
       const <%= pascalEntityName %> = require('./containers/<%= pascalEntityName %>Container').default
       const reducer = require('./modules/<%= pascalEntityName %>').default
 
-      /*  Add the reducer to the store on key 'counter'  */
+      /*  Add the reducer to the store a key */
       injectReducer(store, { key: '<%= pascalEntityName %>', reducer })
 
       /*  Return getComponent   */
